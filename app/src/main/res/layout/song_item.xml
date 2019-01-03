@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:id="@+id/songIdTV"
+                android:text="1"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_toRightOf="@+id/songIdTV"
+                  android:layout_height="wrap_content"
+                  android:text="this is name"
+                  android:id="@+id/nameTV"
+                  android:layout_marginLeft="10dp"/>
+
+        <TextView
+                android:id="@+id/singerTV"
+                android:text="singerTV"
+                android:layout_below="@+id/nameTV"
+                android:layout_toRightOf="@+id/songIdTV"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageButton
+                android:background="@android:color/transparent"
+                android:id="@+id/imageButton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

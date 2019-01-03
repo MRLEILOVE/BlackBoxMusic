@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/imageView"
+                        android:background="@mipmap/ic_launcher_round"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+
+                <TextView
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/app_name"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                    android:id="@+id/authorRL"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_centerVertical="true"
+                        android:id="@+id/imageView1"
+                        android:background="@drawable/ic_author"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+
+                <LinearLayout
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/imageView1"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textSize="16dp"
+                            android:layout_centerVertical="true"
+                            android:textColor="@android:color/black"
+                            android:text="小诺"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_centerVertical="true"
+                            android:text="微信：aaa1111"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/updateRL"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_centerVertical="true"
+                        android:id="@+id/imageView2"
+                        android:background="@drawable/ic_edition"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+
+                <LinearLayout
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/imageView2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textSize="16dp"
+                            android:layout_centerVertical="true"
+                            android:textColor="@android:color/black"
+                            android:text="版本"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_centerVertical="true"
+                            android:text="1.0.0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/webRL"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_computer"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                <TextView
+                        android:textSize="16dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:layout_centerVertical="true"
+                        android:textColor="@android:color/black"
+                        android:text="访问网页版"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:layout_below="@+id/cardview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cardview1"
+            android:layout_alignEnd="@+id/cardview1">
+
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:text="支持开发者"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                    android:id="@+id/qqRL"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_qq"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+
+                <LinearLayout
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textSize="16dp"
+                            android:layout_centerVertical="true"
+                            android:textColor="@android:color/black"
+                            android:text="加入交流群"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_centerVertical="true"
+                            android:text="QQ群：45465546"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/shareRL"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_about_share"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+
+                <LinearLayout
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/imageView5"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textSize="16dp"
+                            android:layout_centerVertical="true"
+                            android:textColor="@android:color/black"
+                            android:text="分享"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_centerVertical="true"
+                            android:text="如果你喜欢黑盒音乐，可以分享给好友哦。"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/RewardRL"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_reward"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+
+                <LinearLayout
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/imageView6"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:textSize="16dp"
+                            android:layout_centerVertical="true"
+                            android:textColor="@android:color/black"
+                            android:text="打赏"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:layout_centerVertical="true"
+                            android:text="如果你喜欢黑盒音乐，并希望他能越来越好，可以给作者打赏！"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

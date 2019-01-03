@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:background="@color/colorPrimary"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="www.leigq.com.blackboxmusic.activity.RewardActivity">
+
+
+    <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        <ImageButton android:layout_width="25dp"
+                     android:id="@+id/backIV"
+                     android:layout_centerVertical="true"
+                     android:layout_margin="10dp"
+                     android:background="@drawable/ic_back"
+                     android:layout_height="25dp"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textStyle="bold"
+                  android:text="打赏"
+                  android:textSize="20dp"
+                  android:layout_centerInParent="true"
+                  android:textColor="@android:color/white"
+                  android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_below="@+id/relativeLayout"
+                  android:id="@+id/LinearLayout"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="=======开发者有话说======="
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="如果你觉得黑盒音乐解决了你的问题"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="并且希望他越来越好"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="你的打赏将会是我们继续努力的动力！"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="290dp">
+
+        <ImageView
+                android:id="@+id/alipayIV"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:background="@drawable/alipay"
+                android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="match_parent"
+                   android:id="@+id/wechartIV"
+                   android:layout_weight="1"
+                   android:background="@drawable/wechartpay"
+                   android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/LinearLayout1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="打赏6元(一瓶红牛)"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="打赏15元(请一杯咖啡)"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="打赏30元(请吃一顿饭)"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="无论你打赏多少，都是对作者的鼓励和支持！"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="支付宝直接点击二维码即可！"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="微信点击之后需手动扫码支付！"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:layout_gravity="center"
+                  android:text="两张二维码已保存至相册！"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
